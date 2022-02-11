@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="turns">it's <span style="color: red;">red </span> turn</h1>
+    <h1 id=winners></h1>
+<div class="main" id="start">
+    <div id="redgreen">
+            <div id="reddice" >
+             <img id="rd" src="img/1.png" alt="" class="dice">
+            </div>
+            <div id="greendice">
+                <img id="gd" src="img/1.png" alt="" class="dice">
+            </div>
+    </div>
+    <div class="container">
+
+        <div class="con1">
+            <!--red box-->
+            <div class="con1_col1 red">
+                <div class="con1_col1Child">
+                  <div class="red  con1_col1Childr">
+                      <div class="white innerdiv" id="redh1">
+                        <div class="goti giti1 red" id="redpawn1" ></div>
+                      </div>
+                  </div>
+                  <div class="red con1_col1Childr">
+                      <div class="white innerdiv" id="redh2">
+                        <div class="goti giti2 red"  id="redpawn2"></div>
+                      </div>
+                  </div>
+                  <div class="red con1_col1Childr">
+                      <div class="white innerdiv" id="redh3">
+                        <div class="goti giti3 red"  id="redpawn3"></div>
+                      </div>
+                  </div>
+                  <div class="red con1_col1Childr">
+                      <div class="white innerdiv"id="redh4">
+                        <div class=" goti giti4 red"  id="redpawn4"></div>
+                      </div>
+                  </div>
+                </div>
+            
+            </div>
+            <!--green path-->
+            <div class="con1_col2">
+               <div  class="way1" id="10"></div>
+               <div  class="way1" id="11"></div>
+               <div  class="way1" id="12"></div>
+
+               <div class="way1" id="9"></div>
+               <div class="green way1" id="91"></div>
+               <div class="green way1" id="13"></div>
+
+               <div  class="way1 green" id="8"></div>
+               <div  class="green way1" id="92"></div>
+               <div  class="way1" id="14"></div>
+
+               <div  class="way1" id="7"></div>
+               <div  class="green way1" id="93"></div>
+               <div  class="way1" id="15"></div>
+
+               <div  class="way1" id="6"></div>
+               <div  class="green way1" id="94"></div>
+               <div  class="way1" id="16"></div>
+
+               <div class="way1" id="5"></div>
+               <div class="way1 green" id="95"></div>
+               <div class="way1" id="17"></div>
+               
+
+            </div>
+             <!--green box-->
+            <div class="con1_col3 green">
+              <div class="con1_col3Child">
+                    <div class="green con1_col1Childr">
+                        <div class="white innerdiv" id="greenh1">
+                            <div class="goti giti1 green" id="greenpawn1"></div>
+
+                        </div>
+                    </div>
+                    <div class="green con1_col1Childr">
+                        <div class="white innerdiv" id="greenh2">
+                            <div class="goti giti2 green"id="greenpawn2"></div>
+
+                        </div>
+                    </div>
+                    <div class="green con1_col1Childr">
+                        <div class="white innerdiv"  id="greenh3">
+                            <div class="goti giti3 green" id="greenpawn3"></div>
+
+                        </div>
+                    </div>
+                    <div class="green con1_col1Childr">
+                        <div class="white innerdiv" id="greenh4">
+                            <div class="goti giti4 green" id="greenpawn4"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="con2">
+            <div class="con2_col1">
+                <!--red path-->
+                <div class="way" id="51"></div>
+                <div  class="red way" id="0"></div>
+                <div class="way" id="1"></div>
+                <div class="way" id="2" ></div>
+                <div class="way" id="3"></div>
+                <div class="way" id="4"> </div>
+
+                <div class="way" id="50"></div>
+                <div class="red way" id="61"></div>
+                <div class="red way" id="62"></div>
+                <div class="red way" id="63"></div>
+                <div class="red way" id="64"></div>
+                <div class="red way" id="65"></div>
+
+                <div class="way" id="49"></div>
+                <div class="way" id="48"></div>
+                <div class="way red" id="47"></div>
+                <div class="way" id="46"></div>
+                <div class="way" id="45"></div>
+                <div class="way" id="44"></div>
+            
+            </div>
+            <!--Exit area-->
+            <div class="con2_col2">
+         
+            </div>
+
+            <!--yellow-->
+            <div class="con2_col3">
+                <div class="way" id="18"></div>
+                <div class="way" id="19"></div>
+                <div class="way" id="20"></div>
+                <div class="way yellow" id="21"></div>
+                <div class="way" id="22"></div>
+                <div class="way" id="23"></div>
+
+                
+                <div class="yellow way" id="85"></div>
+                <div class="yellow way" id="84"></div>
+                <div class="yellow way" id="83"></div>
+                <div class="yellow way" id="82"></div>
+                <div class="yellow way" id="81"></div>
+                <div class="way" id="24"></div>
+
+                <div class="way" id="30"></div>
+                <div class="way" id="29"></div>
+                <div class="way" id="28"></div>
+                <div class="way" id="27"></div>
+                <div class="yellow way" id="26"></div>
+                <div class="way" id="25"></div>
+
+            </div>
+        </div>
+         <!--blue box-->
+        <div class="con3">
+            <div class="con3_col1 blue">
+                <div class="con3_col1Child">
+                    <div class="blue con1_col1Childr">
+                        <div class="white innerdiv" id="blueh1">
+                            <div class="goti giti1 blue" id="bluepawn1"></div>
+                        </div>
+                    </div>
+                    <div class="blue con1_col1Childr">
+                        <div class="white innerdiv" id="blueh2">
+                            <div class="goti giti2 blue" id="bluepawn2"></div>
+                        </div>
+                    </div>
+                    <div class="blue con1_col1Childr">
+                        <div class="white innerdiv" id="blueh3">
+                            <div class="goti giti3 blue" id="bluepawn3"></div>
+                        </div>
+                    </div>
+                    <div class="blue con1_col1Childr">
+                        <div class="white innerdiv" id="blueh4">
+                            <div class="goti giti4 blue"  id="bluepawn4"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+           <!--blue path-->
+            <div class="con3_col2">
+               
+                <div class="way1" id="43"></div>
+                <div  class="blue way1" id="75"></div>
+                <div  class="way1" id="31"></div>
+                
+                <div  class="way1" id="42"></div>
+                <div  class="blue way1" id="74"></div>
+                <div class="way1" id="32"></div>
+ 
+                <div  class="way1" id="41"></div>
+                <div  class="blue way1" id="73"></div>
+                <div  class="way1" id="33"></div>
+ 
+                <div  class="way1" id="40"></div>
+                <div  class="blue way1" id="72"></div>
+                <div  class="blue way1" id="34"></div>
+ 
+                <div class="blue way1" id="39"></div>
+                <div  class="blue way1" id="71"></div>
+                <div  class="way1" id="35"></div>
+               
+                <div class="way1" id="38"></div>
+                <div class="way1" id="37"></div>
+                <div class="way1" id="36"></div>
+ 
+
+
+            </div>
+             <!--yellow box-->
+            <div class="con3_col3 yellow">
+                <div class="con3_col3Child">
+                    <div class="yellow con1_col1Childr">
+                        <div class="white innerdiv" id="yellowh1">
+                            <div class="goti giti1 yellow" id="yellow1"></div>
+                        </div>
+                    </div>
+                    <div class="yellow con1_col1Childr">
+                        <div class="white innerdiv" id="yellowh2">
+                            <div class="goti giti2 yellow"id="yellow2"></div>
+                        </div>
+                    </div>
+                    <div class="yellow con1_col1Childr">
+                        <div class="white innerdiv" id="yellowh3">
+                            <div class="goti giti3 yellow"id="yellow3"></div>
+                        </div>
+                    </div>
+                    <div class="yellow con1_col1Childr">
+                        <div class="white innerdiv" id="yellowh4">
+                            <div class="goti giti4 yellow" id="yellow4"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blueyellow">
+    <div class="bluedice">
+        <img src="img/1.png" alt="" class="dice" id="bd">
+    </div>
+    <div class="yellowdice">
+        <img src="img/1.png" alt="" class="dice" id="yd">
+    </div>
+    </div>
+   
+</div>
+<div id="wingoti"></div>
+</body>
+<script src="ludo.js"></script>
+</html>
